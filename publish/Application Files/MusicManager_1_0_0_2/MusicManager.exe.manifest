@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="MusicManager.exe" version="1.0.0.2" publicKeyToken="739758912d3e71b1" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MusicManager" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="MusicManager.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MusicManager.exe" size="27136">
+      <assemblyIdentity name="MusicManager" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>aT/La70v7yvkwIFsYVAegLI39VU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=TAWANDA-HP\TAWANDA" issuerKeyHash="9e3e6e2e6805c67d484d4bea34862a0679621bf8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>jm++M7i95p74/xO/MVumFU9mB8Q=</DigestValue></Reference></SignedInfo><SignatureValue>v8cjBXdDHDDTFV+7CSOfzDZROy6/xzGGLGllH1D9eU991dvXH2YSd5CZ+53bS+Yp0FwmbJTBwVt1fRMu8+Cs9hYuxwC/YIZFEzo2w5yryFU/bhBY1g9PKLz5b9B20uLfJnQEtGQh02+Klm10UdL/JVksePjvQ4HJ+mhlQIJUPaY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1BP8jR4TyzQgl4/V8+qhXQFDKKwrWEk2+C2IA1RicrYmtAvubUDuTSy88ca7997MwL9hdhdLpG1l+jwz8X15pyE7dZd5hs7taVLm0oLVxulQIezFOTXAu3oLXhJJb3I1Objh7ErUDIPtS1J9xG0omUZRKpOW34/pPd2eylD6jl8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c407664f15a65b31bf13fff89ee6bdb833be6f8e" Description="" Url=""><as:assemblyIdentity name="MusicManager.exe" version="1.0.0.2" publicKeyToken="739758912d3e71b1" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TAWANDA-HP\TAWANDA</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>qyTIefYls2270NZ4+4jXgW7eMEY=</DigestValue></Reference></SignedInfo><SignatureValue>J9yfsgHrLrIzE99P9JPk+1YQWFFTrV5aNiAjhby1Thz7Wtm9D6uaWWapVojBEIRYpLUALDPX3yECY8gHb757uSMlYHITbgydg2X3Fzem1XVwEfZHUqiNChz5yu6huRmE4pdKU9U3MQnDqaSdnyXdQ5LEdtLKTvd5bwm0ah20Opc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1BP8jR4TyzQgl4/V8+qhXQFDKKwrWEk2+C2IA1RicrYmtAvubUDuTSy88ca7997MwL9hdhdLpG1l+jwz8X15pyE7dZd5hs7taVLm0oLVxulQIezFOTXAu3oLXhJJb3I1Objh7ErUDIPtS1J9xG0omUZRKpOW34/pPd2eylD6jl8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQFgKjQQrmar1MImMgZhXT9DANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAVABBAFcAQQBOAEQAQQAtAEgAUABcAFQAQQBXAEEATgBEAEEwHhcNMTMwNDE3MDkwMjUxWhcNMTQwNDE3MTUwMjUxWjAvMS0wKwYDVQQDHiQAVABBAFcAQQBOAEQAQQAtAEgAUABcAFQAQQBXAEEATgBEAEEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANQT/I0eE8s0IJeP1fPqoV0BQyisK1hJNvgtiANUYnK2JrQL7m1A7k0svPHGu/fezMC/YXYXS6RtZfo8M/F9eachO3WXeYbO7WlS5tKC1cbpUCHsxTk1wLt6C14SSW9yNTm44exK1AyD7UtSfcRtKJlGUSqTlt+P6T3dnspQ+o5fAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAS5n8Yjo0NtyNXcOjpm5vSMHgv0Zb//GTeVdm0bBZ2PuwifROcGM7/Mj2HRB9RThbS1cEontXCaDVPg9Mc+fi3P68ONhDYq9yjlCJhCCckviYqM8Za9oXHaJDi06sNVommhbIO42OeniLtQGgBFuxaPPsfAYw3dHffs+r11aQ1xM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
